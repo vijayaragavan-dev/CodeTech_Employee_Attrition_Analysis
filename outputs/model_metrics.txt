@@ -1,0 +1,84 @@
+======================================================================
+  MODEL EVALUATION METRICS
+======================================================================
+
+Model: Logistic Regression
+--------------------------------------------------
+  Accuracy             : 0.5408
+  Precision            : 0.4388
+  Recall               : 0.5169
+  F1 Score             : 0.4747
+
+  Confusion Matrix:
+  [[98 78]
+ [57 61]]
+
+  Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.56      0.59       176
+           1       0.44      0.52      0.47       118
+
+    accuracy                           0.54       294
+   macro avg       0.54      0.54      0.53       294
+weighted avg       0.55      0.54      0.55       294
+
+==================================================
+
+Model: Decision Tree
+--------------------------------------------------
+  Accuracy             : 0.5238
+  Precision            : 0.4083
+  Recall               : 0.4153
+  F1 Score             : 0.4118
+
+  Confusion Matrix:
+  [[105  71]
+ [ 69  49]]
+
+  Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.60      0.60       176
+           1       0.41      0.42      0.41       118
+
+    accuracy                           0.52       294
+   macro avg       0.51      0.51      0.51       294
+weighted avg       0.53      0.52      0.52       294
+
+==================================================
+
+Model: Random Forest
+--------------------------------------------------
+  Accuracy             : 0.5816
+  Precision            : 0.4324
+  Recall               : 0.1356
+  F1 Score             : 0.2065
+
+  Confusion Matrix:
+  [[155  21]
+ [102  16]]
+
+  Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.88      0.72       176
+           1       0.43      0.14      0.21       118
+
+    accuracy                           0.58       294
+   macro avg       0.52      0.51      0.46       294
+weighted avg       0.53      0.58      0.51       294
+
+==================================================
+
+
+Model Comparison (Sorted by F1 Score):
+--------------------------------------------------
+              Model  Accuracy  Precision   Recall  F1 Score
+Logistic Regression  0.540816   0.438849 0.516949  0.474708
+      Decision Tree  0.523810   0.408333 0.415254  0.411765
+      Random Forest  0.581633   0.432432 0.135593  0.206452
+
+Best Performing Model: Logistic Regression
+F1 Score: 0.4747
+Accuracy: 0.5408

@@ -1,0 +1,54 @@
+======================================================================
+  FEATURE IMPORTANCE ANALYSIS (Random Forest)
+======================================================================
+
+Top 10 Most Important Features:
+------------------------------------------------------------
+Rank  Feature                             Importance     
+------------------------------------------------------------
+1     DailyRate                           0.062735
+2     MonthlyRate                         0.062330
+3     MonthlyIncome                       0.061637
+4     HourlyRate                          0.055210
+5     DistanceFromHome                    0.051746
+6     Age                                 0.051577
+7     TotalWorkingYears                   0.047575
+8     PercentSalaryHike                   0.047247
+9     YearsAtCompany                      0.044094
+10    NumCompaniesWorked                  0.038938
+
+
+All Features Sorted by Importance:
+------------------------------------------------------------
+Rank  Feature                             Importance     
+------------------------------------------------------------
+1     DailyRate                           0.062735
+2     MonthlyRate                         0.062330
+3     MonthlyIncome                       0.061637
+4     HourlyRate                          0.055210
+5     DistanceFromHome                    0.051746
+6     Age                                 0.051577
+7     TotalWorkingYears                   0.047575
+8     PercentSalaryHike                   0.047247
+9     YearsAtCompany                      0.044094
+10    NumCompaniesWorked                  0.038938
+11    JobRole                             0.033293
+12    YearsWithCurrManager                0.032584
+13    YearsSinceLastPromotion             0.031372
+14    TrainingTimesLastYear               0.030676
+15    JobSatisfaction                     0.030390
+16    YearsInCurrentRole                  0.030172
+17    EducationField                      0.028707
+18    StockOptionLevel                    0.027178
+19    WorkLifeBalance                     0.026115
+20    JobLevel                            0.025410
+21    Education                           0.024498
+22    JobInvolvement                      0.024042
+23    RelationshipSatisfaction            0.022279
+24    EnvironmentSatisfaction             0.022276
+25    OverTime                            0.018486
+26    MaritalStatus                       0.018125
+27    BusinessTravel                      0.017240
+28    Department                          0.014186
+29    Gender                              0.009965
+30    PerformanceRating                   0.009913

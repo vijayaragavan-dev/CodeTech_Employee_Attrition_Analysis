@@ -1,0 +1,111 @@
+======================================================================
+  DATASET SUMMARY - EMPLOYEE ATTRITION ANALYSIS
+======================================================================
+
+Dataset Shape: 1470 rows x 35 columns
+
+Column Names and Data Types:
+--------------------------------------------------
+  Age                                 int64
+  Attrition                           str
+  BusinessTravel                      str
+  DailyRate                           int64
+  Department                          str
+  DistanceFromHome                    int64
+  Education                           int64
+  EducationField                      str
+  EmployeeCount                       int64
+  EmployeeNumber                      int64
+  EnvironmentSatisfaction             int64
+  Gender                              str
+  HourlyRate                          int64
+  JobInvolvement                      int64
+  JobLevel                            int64
+  JobRole                             str
+  JobSatisfaction                     int64
+  MaritalStatus                       str
+  MonthlyIncome                       int64
+  MonthlyRate                         int64
+  NumCompaniesWorked                  int64
+  Over18                              str
+  OverTime                            str
+  PercentSalaryHike                   int64
+  PerformanceRating                   int64
+  RelationshipSatisfaction            int64
+  StandardHours                       int64
+  StockOptionLevel                    int64
+  TotalWorkingYears                   int64
+  TrainingTimesLastYear               int64
+  WorkLifeBalance                     int64
+  YearsAtCompany                      int64
+  YearsInCurrentRole                  int64
+  YearsSinceLastPromotion             int64
+  YearsWithCurrManager                int64
+
+Numerical Columns Statistical Summary:
+--------------------------------------------------
+               Age   DailyRate  DistanceFromHome    Education  EmployeeCount  EmployeeNumber  EnvironmentSatisfaction   HourlyRate  JobInvolvement     JobLevel  JobSatisfaction  MonthlyIncome   MonthlyRate  NumCompaniesWorked  PercentSalaryHike  PerformanceRating  RelationshipSatisfaction  StandardHours  StockOptionLevel  TotalWorkingYears  TrainingTimesLastYear  WorkLifeBalance  YearsAtCompany  YearsInCurrentRole  YearsSinceLastPromotion  YearsWithCurrManager
+count  1470.000000  1470.00000       1470.000000  1470.000000         1470.0     1470.000000              1470.000000  1470.000000     1470.000000  1470.000000      1470.000000    1470.000000   1470.000000         1470.000000        1470.000000        1470.000000               1470.000000         1470.0       1470.000000        1470.000000            1470.000000      1470.000000     1470.000000         1470.000000              1470.000000           1470.000000
+mean     39.270068   797.52585         15.459864     2.981633            1.0      735.500000                 2.512245    64.272789        2.565306     3.072789         2.478231   10725.213605  13213.344898            4.439456          14.997959           3.529252                  2.433333           80.0          1.519048          19.823129               3.008163         2.526531        8.516327            4.217687                 2.362585              4.271429
+std      12.216946   414.42629          8.527022     1.426317            0.0      424.496761                 1.112856    20.673770        1.117724     1.420748         1.112098    5253.046877   6674.009815            2.948631           6.005273           0.499313                  1.124928            0.0          1.102928          12.087440               1.992481         1.111382        5.616706            2.712744                 1.873418              2.748439
+min      18.000000   102.00000          1.000000     1.000000            1.0        1.000000                 1.000000    30.000000        1.000000     1.000000         1.000000    2017.000000   2000.000000            0.000000           5.000000           3.000000                  1.000000           80.0          0.000000           1.000000               0.000000         1.000000        1.000000            1.000000                 0.000000              1.000000
+25%      29.000000   423.50000          8.000000     2.000000            1.0      368.250000                 2.000000    46.000000        2.000000     2.000000         1.000000    6180.000000   7400.750000            2.000000          10.000000           3.000000                  1.000000           80.0          1.000000           9.000000               1.000000         2.000000        4.000000            2.000000                 1.000000              2.000000
+50%      39.000000   785.50000         16.000000     3.000000            1.0      735.500000                 2.500000    64.000000        3.000000     3.000000         2.000000   10549.500000  13136.500000            4.000000          15.000000           4.000000                  2.000000           80.0          1.500000          20.000000               3.000000         3.000000        8.000000            4.000000                 2.000000              4.000000
+75%      50.000000  1164.50000         23.000000     4.000000            1.0     1102.750000                 4.000000    82.000000        4.000000     4.000000         3.000000   15289.250000  18876.500000            7.000000          20.000000           4.000000                  3.000000           80.0          3.000000          30.000000               5.000000         4.000000       13.000000            6.000000                 4.000000              6.000000
+max      60.000000  1500.00000         30.000000     5.000000            1.0     1470.000000                 4.000000   100.000000        4.000000     5.000000         4.000000   19983.000000  24955.000000            9.000000          25.000000           4.000000                  4.000000           80.0          3.000000          43.000000               6.000000         4.000000       20.000000           10.000000                 7.000000             10.000000
+
+Categorical Columns Statistical Summary:
+--------------------------------------------------
+       Attrition BusinessTravel Department EducationField  Gender          JobRole MaritalStatus Over18 OverTime
+count       1470           1470       1470           1470    1470             1470          1470   1470     1470
+unique         2              3          3              6       2               10             3      1        2
+top           No  Travel_Rarely      Sales      Marketing  Female  Human Resources      Divorced      Y       No
+freq         878            510        502            256     772              250           509   1470      766
+
+Missing Value Analysis:
+--------------------------------------------------
+Total Missing Values: 0
+Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+
+Target Variable (Attrition) Distribution:
+--------------------------------------------------
+Attrition
+No     878
+Yes    592
+Attrition
+No     59.73
+Yes    40.27

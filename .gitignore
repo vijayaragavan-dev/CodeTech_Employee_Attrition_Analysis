@@ -1,0 +1,43 @@
+# =============================================================================
+# EMPLOYEE ATTRITION ANALYSIS - GITIGNORE
+# =============================================================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (if regenerated)
+models/*.pkl
+
+# Screenshots (if regenerated)
+screenshots/*.png
+
+# Data generator script (not needed for deployment)
+generate_data.py
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
